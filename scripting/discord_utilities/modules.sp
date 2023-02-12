@@ -1214,13 +1214,12 @@ public void ChatRelayReceived(DiscordBot bawt, DiscordChannel channel, DiscordMe
 	}
 
 	char message[512];
-	char userName[32], discriminator[6];
+	char userName[32];
 	discordmessage.GetContent(message, sizeof(message));
 	author.GetUsername(userName, sizeof(userName));
-	author.GetDiscriminator(discriminator, sizeof(discriminator));
 	delete author;
 
-	CPrintToChatAll("%s %T", g_sDiscordPrefix, "ChatRelayFormat", LANG_SERVER, userName, discriminator, message);
+	CPrintToChatAll("%s %T", g_sDiscordPrefix, "ChatRelayFormat", LANG_SERVER, userName, message);
 }
 
 public void OnMessageReceived(DiscordBot bawt, DiscordChannel channel, DiscordMessage discordmessage)
