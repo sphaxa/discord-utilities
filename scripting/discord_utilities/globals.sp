@@ -1,9 +1,9 @@
 #define PLUGIN_VERSION "2.9.4-BETA"
 
-#define PLUGIN_NAME "Discord Utilities"
-#define PLUGIN_AUTHOR "Cruze"
-#define PLUGIN_DESC "Utilities that can be used to integrate gameserver to discord server I guess?"
-#define PLUGIN_URL "https://github.com/Cruze03/discord-utilities | http://www.steamcommunity.com/profiles/76561198132924835"
+#define PLUGIN_NAME "Discord Utilities Modified"
+#define PLUGIN_AUTHOR "sphaxa"
+#define PLUGIN_DESC "Modified by sphaxa"
+#define PLUGIN_URL "https://github.com/sphaxa/discord-utilities"
 
 #define DEFAULT_COLOR "#00FF00"
 
